@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# xsim v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Dec 15 14:40:23 2023
+# Process ID: 27270
+# Current directory: /home/husni/Tahoe_Example_Projects/mem_tb/sim
+# Command line: xsim -mode tcl -source {xsim.dir/top/xsim_script.tcl}
+# Log file: /home/husni/Tahoe_Example_Projects/mem_tb/sim/xsim.log
+# Journal file: /home/husni/Tahoe_Example_Projects/mem_tb/sim/xsim.jou
+# Running On: husnimahdi, OS: Linux, CPU Frequency: 3688.715 MHz, CPU Physical cores: 8, Host memory: 16447 MB
+#-----------------------------------------------------------
+source xsim.dir/top/xsim_script.tcl
+run -all

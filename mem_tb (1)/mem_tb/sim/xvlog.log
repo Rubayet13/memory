@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/husni/Tahoe_Example_Projects/mem_tb/tb/params.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/husni/Tahoe_Example_Projects/mem_tb/rtl/mem.sv" into library work
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/husni/Tahoe_Example_Projects/mem_tb/tb/mem_interface.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/husni/Tahoe_Example_Projects/mem_tb/tb/mem_trans.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/husni/Tahoe_Example_Projects/mem_tb/tb/mem_driver.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/husni/Tahoe_Example_Projects/mem_tb/tb/driver_v2.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/husni/Tahoe_Example_Projects/mem_tb/tb/test.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/husni/Tahoe_Example_Projects/mem_tb/tb/mem_tb_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_top

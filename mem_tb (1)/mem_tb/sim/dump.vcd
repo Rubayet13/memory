@@ -1,0 +1,175 @@
+$date
+   Fri Dec 15 14:40:26 2023
+$end
+$version
+  2023.1
+$end
+$timescale
+  1ps
+$end
+$scope module tb_top $end
+$var reg 1 ! clk $end
+$scope module INTF $end
+$var wire 1 " clk $end
+$var reg 1 # rst_n $end
+$var reg 1 $ enb $end
+$var reg 1 % rd_wr $end
+$var reg 16 & addr [15:0] $end
+$var reg 32 ' data_in [31:0] $end
+$var reg 32 ( data_out [31:0] $end
+$upscope $end
+$scope module DUT_1 $end
+$var wire 1 ) clk $end
+$var wire 1 * rst_n $end
+$var wire 1 + enb $end
+$var wire 1 , rd_wr $end
+$var wire 16 - addr [15:0] $end
+$var wire 32 . data_in [31:0] $end
+$var wire 32 / data_out [31:0] $end
+$var reg 1 0 outData $end
+$scope begin Block16_2 $end
+$var reg 32 1 i [31:0] $end
+$upscope $end
+$upscope $end
+$scope module test0 $end
+$var wire 1 2 clk $end
+$var reg 32 3 DRVR $end
+$var reg 32 4 test2drvr $end
+$var reg 32 5 item $end
+$var reg 32 6 sema $end
+$scope module INTF $end
+$var wire 1 " clk $end
+$var reg 1 # rst_n $end
+$var reg 1 $ enb $end
+$var reg 1 % rd_wr $end
+$var reg 16 & addr [15:0] $end
+$var reg 32 ' data_in [31:0] $end
+$var reg 32 ( data_out [31:0] $end
+$upscope $end
+$scope task reset $end
+$upscope $end
+$scope task write $end
+$var reg 16 7 addr $end
+$var reg 32 8 data $end
+$upscope $end
+$scope task idle $end
+$upscope $end
+$scope task read $end
+$var reg 16 9 addr $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1#
+0$
+1%
+b1 &
+b1 '
+bz (
+0)
+1*
+0+
+1,
+b1 -
+b1 .
+bz /
+x0
+b0 1
+02
+b1001111100000010zzzzzzz00x1xzzz 3
+b1001111100000000zzzzzzz00x1xzzz 4
+b1001111100001000zzzzzzz00x1xzzz 5
+b1001111100000000zzzzzzz10x0xzzz 6
+b0 7
+b0 8
+b0 9
+$end
+#5000
+1!
+1"
+1)
+12
+#10000
+0!
+0"
+0)
+02
+b1100100 7
+b10001001100 8
+#15000
+1!
+1"
+1)
+12
+#20000
+0!
+0"
+1$
+b0x (
+0)
+1+
+b0x /
+02
+#25000
+1!
+1"
+1)
+12
+#30000
+0!
+0"
+0$
+bz (
+0)
+0+
+bz /
+02
+#35000
+1!
+1"
+1)
+12
+#40000
+0!
+0"
+0)
+02
+b1100100 9
+#45000
+1!
+1"
+1)
+12
+#50000
+0!
+0"
+1$
+b0x (
+0)
+1+
+b0x /
+02
+#55000
+1!
+1"
+1)
+12
+#60000
+0!
+0"
+0)
+02
+#65000
+1!
+1"
+1)
+12
+#70000
+0!
+0"
+0)
+02

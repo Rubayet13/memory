@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# xsim v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Dec 15 14:31:43 2023
+# Process ID: 25309
+# Current directory: /home/husni/Tahoe_Example_Projects/mem_tb/sim
+# Command line: xsim -mode tcl -source {xsim.dir/top/xsim_script.tcl}
+# Log file: /home/husni/Tahoe_Example_Projects/mem_tb/sim/xsim.log
+# Journal file: /home/husni/Tahoe_Example_Projects/mem_tb/sim/xsim.jou
+# Running On: husnimahdi, OS: Linux, CPU Frequency: 3568.735 MHz, CPU Physical cores: 8, Host memory: 16447 MB
+#-----------------------------------------------------------
+source xsim.dir/top/xsim_script.tcl
+# xsim {top} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+test initiated
+
+                   0ns || [TEST] Running RESET
+                   0ns || [Driver] INITIATED
+                   0ns || [Driver] Got Item
+                   0ns || [DRVR] Running RESET
+                  10ns || [DRVR] done RESET
+                  10ns || [TEST] RESET Done
+
+                  10ns || [TEST] Running WRITE
+                  10ns || [Driver] Got Item
+                  10ns || [DRVR] Running WRITE
+                  30ns || [DRVR] done WRITE
+                  30ns || [TEST] WRITE Done
+
+                  30ns || [TEST] Running IDLE
+                  30ns || [Driver] Got Item
+                  30ns || [DRVR] Running IDLE
+                  40ns || [DRVR] done IDLE
+                  40ns || [TEST] IDLE Done
+
+                  40ns || [TEST] Running READ
+                  40ns || [Driver] Got Item
+                  40ns || [DRVR] Running READ
+                  60ns || [DRVR] done READ
+                  60ns || [TEST] READ Done
+$finish called at time : 70 ns : File "/home/husni/Tahoe_Example_Projects/mem_tb/tb/test.sv" Line 25
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Dec 15 14:31:46 2023...
